@@ -2,19 +2,18 @@
 
 - Error: spawn ./gradlew EACCES 
 ```bash
-fix: 权限问题，在项目目录下执行
+权限问题，在项目目录下执行:
 chmod 755 android/gradlew
 ```
 - Mac m1 - pod install Error
 ```bash
-fix: 在ios下目录执行
+在ios下目录执行:
 sudo arch -x86_64 gem install ffi
 arch -x86_64 pod install
 ||
 arch -x86_64 pod update && pod install
 ```
 - Ignoring ffi-1.14.1 because its extensions are not built. Try: gem pristine ffi --version 1.14.1
-fix: 
 ```bash
 sudo gem install ffi -v 1.14.1
 ```

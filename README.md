@@ -1,13 +1,13 @@
 # react-native-dev-issues
 
 - Error: spawn ./gradlew EACCES 
-fix: 权限问题，在项目目录下执行
 ```bash
+fix: 权限问题，在项目目录下执行
 chmod 755 android/gradlew
 ```
 - Mac m1 - pod install Error
-fix: 在ios下目录执行
 ```bash
+fix: 在ios下目录执行
 sudo arch -x86_64 gem install ffi
 arch -x86_64 pod install
 ||

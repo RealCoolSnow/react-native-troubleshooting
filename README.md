@@ -1,5 +1,3 @@
-# react-native-dev-issues
-
 - Error: spawn ./gradlew EACCES 
 ```bash
 权限问题，在项目目录下执行:

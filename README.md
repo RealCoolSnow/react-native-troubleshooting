@@ -18,3 +18,7 @@ fix:
 ```bash
 sudo gem install ffi -v 1.14.1
 ```
+- Library not loaded: @rpath/hermes.framework/hermes
+```bash
+https://github.com/facebook/react-native/issues/34608#issuecomment-1239528471
+```

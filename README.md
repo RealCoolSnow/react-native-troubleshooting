@@ -10,8 +10,7 @@ chmod 755 android/gradlew
 在ios下目录执行:
 sudo arch -x86_64 gem install ffi
 arch -x86_64 pod install
-||
-arch -x86_64 pod update && pod install
+#arch -x86_64 pod update && pod install
 ```
 - Ignoring ffi-1.14.1 because its extensions are not built. Try: gem pristine ffi --version 1.14.1
 ```bash

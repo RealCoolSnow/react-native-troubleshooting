@@ -9,3 +9,6 @@ sudo arch -x86_64 gem install ffi
 arch -x86_64 pod install
 ||
 arch -x86_64 pod update && pod install
+
+### 3. Ignoring ffi-1.14.1 because its extensions are not built. Try: gem pristine ffi --version 1.14.1
+fix - sudo gem install ffi -v 1.14.1
